@@ -1,0 +1,25 @@
+# Dependências principais
+fastapi==0.100.0
+uvicorn[standard]==0.22.0
+
+# MongoDB async driver
+motor==3.1.1
+
+# OpenAI new python client (pypi package 'openai' for older API; here we assume the official OpenAI client)
+openai==1.0.0
+
+# carregamento de variáveis de ambiente
+python-dotenv==1.0.0
+
+# parsing de PDF
+pypdf==4.0.0
+
+# para upload multipart/form-data
+python-multipart==0.0.6
+
+# DNS lib (útil quando usar MongoDB Atlas)
+dnspython==2.3.0
+
+# typing helpers (opcional)
+typing-extensions==4.9.0
+
